@@ -1,0 +1,34 @@
+# Virtual environments
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Mac
+.DS_Store
+
+# VSCode
+.vscode/
+
+# Environment variables
+.env
+
+# Pytest
+.pytest_cache/
+
+# Logs
+*.log
+
+# Trained bot weights
+*.pt
+*.pkl
+*.npz
+
+# Simulation outputs (regenerable)
+results/*
+!results/.gitkeep
